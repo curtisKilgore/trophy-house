@@ -80,7 +80,7 @@ const products = [
 ];
 
 // Common JS
-module.exports = products;
+// module.exports = products;
 
 // Backend not set up for ES Modules so have to use the above
-// export default products;
+export default products;
